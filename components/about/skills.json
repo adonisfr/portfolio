@@ -1,0 +1,66 @@
+[
+    {
+        "name":"HTML5",
+        "image":"/skills/html.svg"
+    },
+    {
+        "name":"CSS3",
+        "image":"/skills/css3.svg"
+    },
+    {
+        "name":"JavaScript",
+        "image":"/skills/javascript.svg"
+    },
+    {
+        "name":"ReactJS",
+        "image":"/skills/react.svg"
+    },
+    {
+        "name":"Redux",
+        "image":"/skills/redux.svg"
+    },
+    {
+        "name":"Tailwind CSS",
+        "image":"/skills/tailwind.svg"
+    },
+    {
+        "name":"JSON",
+        "image":"/skills/json.svg"
+    },
+    {
+        "name":"ECMAScript",
+        "image":""
+    },
+    {
+        "name":"REST",
+        "image":""
+    },
+    {
+        "name":"Git",
+        "image":"/skills/git-icon.svg"
+    },
+    {
+        "name":"Node JS",
+        "image":"/skills/nodejs-icon.svg"
+    },
+    {
+        "name":"Express JS",
+        "image":""
+    },
+    {
+        "name":"Linux",
+        "image":"/skills/linux.svg"
+    },
+    {
+        "name":"Ant Design",
+        "image":"/skills/ant-design.svg"
+    },
+    {
+        "name":"PHP",
+        "image":"/skills/php.svg"
+    },
+    {
+        "name":"Perl",
+        "image":"/skills/perl.svg"
+    }      
+]
