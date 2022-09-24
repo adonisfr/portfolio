@@ -1,3 +1,4 @@
+import Education from "./education";
 import Skill from "./skill";
 import skills from "./skills.json";
 
@@ -13,9 +14,12 @@ export default function About() {
           effectively with internal IT staff and company staff. Entrepreneur and
           fast learner who enjoys solving problems.
         </p>
+        <div className="hidden lg:flex">
+          <Education />
+        </div>
       </div>
       <div className="flex flex-col w-full lg:w-1/2 gap-8">
-        <h1 className="font-elMessiri text-7xl text-center ">
+        <h1 className="font-elMessiri text-5xl text-center ">
           Technical Skills
         </h1>
         <div className="flex flex-row flex-wrap px-5 justify-center gap-6">
@@ -23,6 +27,9 @@ export default function About() {
             <Skill key={item.name} name={item.name} logo={item.image} />
           ))}
         </div>
+      </div>
+      <div className="lg:hidden">
+        <Education />
       </div>
     </div>
   );
