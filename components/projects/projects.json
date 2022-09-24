@@ -1,9 +1,11 @@
 [
     {
         "name":"Space tourism multi-page website",
-        "code":"",
-        "preview":"",
+        "code":"https://github.com/adonisfr/space_tourism",
+        "preview":"https://space-tourism-azure.vercel.app/",
         "tags":["ReactJS", "Tailwind CSS"],
-        "image":"/images/Space-tourism-challenge-solution.png"
+        "image":"/images/Space-tourism-challenge-solution.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
     }
 ]

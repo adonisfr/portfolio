@@ -15,7 +15,10 @@ export default function Projects() {
               name={p.name}
               tags={p.tags}
               code={p.code}
+              preview={p.preview}
               picture={p.image}
+              company={p.company}
+              link={p.link}
             />
           </div>
         ))}
