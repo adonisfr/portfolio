@@ -5,7 +5,10 @@ import linkedin from "./linkedin.svg";
 
 export default function Presentation() {
   return (
-    <div className="flex  flex-col w-full lg:justify-between items-center lg:flex-row  h-full gap-8  pb-5">
+    <div
+      id="home"
+      className="flex flex-col w-full pt-28 lg:justify-between items-center lg:flex-row  h-full gap-8  pb-5"
+    >
       <div className="flex flex-col  gap-3 lg:w-full md:pb-12 pt-5 md:pt-10">
         <h1 className="font-serif font-semibold text-2xl">
           Hello! 👋 My name is

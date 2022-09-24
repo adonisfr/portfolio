@@ -3,16 +3,16 @@ import Link from "next/link";
 import { useState } from "react";
 
 const links = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/" },
-  { name: "Projects", href: "/" },
-  { name: "Contact", href: "/" },
+  { name: "Home", href: "#home" },
+  { name: "About", href: "#about" },
+  { name: "Projects", href: "#projects" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="sticky z-50 h-16 w-full   shadow-md top-0 bg-white">
+    <nav className="fixed z-50 h-16 w-full shadow-md bg-white">
       <div className="h-18 md:h-16 md:flex md:justify-between md:items-center bg-white py-4 px-7 lg:container lg:mx-auto">
         <div className="">
           <span className="font-semibold text-3xl">

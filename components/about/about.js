@@ -3,7 +3,7 @@ import skills from "./skills.json";
 
 export default function About() {
   return (
-    <div className="flex flex-col gap-16 lg:flex-row">
+    <div id="about" className="flex flex-col gap-16 pt-32 lg:flex-row">
       <div className="flex flex-col w-full gap-5 lg:w-1/2">
         <h1 className="font-elMessiri text-7xl text-center ">About Me</h1>
         <p>

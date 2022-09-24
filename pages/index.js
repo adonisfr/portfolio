@@ -7,14 +7,14 @@ import Projects from "../components/projects/projects";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="relative">
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="Profesional portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className=" px-6 h-screen pt-12 lg:container mx-auto space-y-10">
+      <main className="scroll-smooth  px-6 h-screen lg:container mx-auto space-y-10">
         <Presentation />
         <About />
         <Projects />
