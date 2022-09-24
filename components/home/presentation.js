@@ -2,6 +2,7 @@ import Image from "next/image";
 import picture from "./f.jpg";
 import email from "./email.svg";
 import linkedin from "./linkedin.svg";
+import Link from "next/link";
 
 export default function Presentation() {
   return (
@@ -16,9 +17,26 @@ export default function Presentation() {
         <p className="font-elMessiri text-5xl"> ADONIS A. FERNANDEZ REYES</p>
         <p className="text-3xl font-medium"> {`I'am a Front-end Developer.`}</p>
         <div className="flex flex-row gap-8">
-          <Image src={email} alt="email" height={44} width={44} />
-          <Image src={linkedin} alt="email" height={48} width={48} />
-          <Image src="/skills/github.svg" alt="email" height={44} width={44} />
+          <Link href="mailto:adonisfernandezr@gmail.com">
+            <a target="_blank">
+              <Image src={email} alt="email" height={42} width={42} />
+            </a>
+          </Link>
+          <Link href="https://www.linkedin.com/in/adonisfr">
+            <a target="_blank">
+              <Image src={linkedin} alt="email" height={48} width={48} />
+            </a>
+          </Link>
+          <Link href="https://github.com/adonisfr">
+            <a target="_blank">
+              <Image
+                src="/skills/github.svg"
+                alt="email"
+                height={42}
+                width={42}
+              />
+            </a>
+          </Link>
         </div>
       </div>
       <div className="flex justify-center w-full lg:w-1/2 ">
