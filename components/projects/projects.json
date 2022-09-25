@@ -7,5 +7,14 @@
         "image":"/images/Space-tourism-challenge-solution.png",
         "company":"Frontend Mentor (Challenges)",
         "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
+        "name":"Weather-App",
+        "code":"https://github.com/adonisfr/weather-app",
+        "preview":"https://adonisfr.github.io/weather-app/",
+        "tags":["ReactJS", "Tailwind CSS"],
+        "image":"/images/Weather-App.png",
+        "company":"",
+        "link":""
     }
 ]
