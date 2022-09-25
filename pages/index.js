@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import About from "../components/about/about";
 import Contact from "../components/contact/contact";
 import Footer from "../components/footer";
@@ -16,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main className="px-6 h-full lg:container mx-auto space-y-10">
+      <main role="main" className="px-6 h-full lg:container mx-auto space-y-10">
         <Presentation />
         <About />
         <Projects />

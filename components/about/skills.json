@@ -52,6 +52,14 @@
         "image":"/skills/linux.svg"
     },
     {
+        "name":"Windows",
+        "image":"/skills/microsoft-windows.svg"
+    },
+    {
+        "name":"Visual studio code",
+        "image":"/skills/visual-studio-code.svg"
+    },
+    {
         "name":"Ant Design",
         "image":"/skills/ant-design.svg"
     },

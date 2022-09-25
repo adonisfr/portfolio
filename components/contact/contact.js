@@ -6,7 +6,10 @@ export default function Contact() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   return (
-    <div className="flex flex-col justify-center items-center w-full gap-4  py-16">
+    <section
+      id="contact"
+      className="flex flex-col justify-center items-center w-full gap-4  py-16"
+    >
       <h1 className="font-elMessiri text-7xl">Contact</h1>
       <p className="font-sans font-semibold text-lg">
         Feel free to drop me an email, tell me about your available job
@@ -54,6 +57,6 @@ export default function Contact() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

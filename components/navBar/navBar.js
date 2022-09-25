@@ -16,7 +16,11 @@ export default function NavBar() {
       <div className="h-18 md:h-16 md:flex md:justify-between md:items-center bg-white py-4 px-7 lg:container lg:mx-auto">
         <div className="">
           <span className="font-semibold text-3xl">
-            {"{"}A2nis F.R{"}"}
+            <Link href="/">
+              <a>
+                {"{"}A2nis F.R{"}"}
+              </a>
+            </Link>
           </span>
         </div>
         <div className="absolute md:hidden right-8 top-6 ">

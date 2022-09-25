@@ -6,9 +6,9 @@ import Link from "next/link";
 
 export default function Presentation() {
   return (
-    <div
+    <section
       id="home"
-      className="flex flex-col w-full pt-28 lg:justify-between items-center lg:flex-row  h-full gap-8  pb-5"
+      className="flex flex-col w-full pt-28 lg:justify-between items-center lg:flex-row  h-screen gap-8  pb-5"
     >
       <div className="flex flex-col  gap-3 lg:w-full md:pb-12 pt-5 md:pt-10">
         <h1 className="font-serif font-semibold text-2xl">
@@ -40,8 +40,16 @@ export default function Presentation() {
         </div>
       </div>
       <div className="flex justify-center w-full lg:w-1/2 ">
-        <Image src={picture} alt="picture" height={400} width={400} />
+        <div className="border-x-4 border-y-4 rounded-full bg-gray-400 ">
+          <Image
+            src={picture}
+            alt="picture"
+            height={400}
+            width={400}
+            className="rounded-full"
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
