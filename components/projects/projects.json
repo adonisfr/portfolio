@@ -11,7 +11,7 @@
     {
         "name":"Interactive card details form",
         "code":"https://github.com/adonisfr/icdf",
-        "preview":"https://interactive-card-details-form-icdf.vercel.app/",
+        "preview":"https://icdf-adonisfr.vercel.app/",
         "tags":["ReactJS", "Tailwind CSS"],
         "image":"/images/interactive-card-details-form.png",
         "company":"Frontend Mentor (Challenges)",
