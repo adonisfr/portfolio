@@ -9,6 +9,15 @@
         "link":"https://www.frontendmentor.io/profile/adonisfr"
     },
     {
+        "name":"Interactive card details form",
+        "code":"https://github.com/adonisfr/icdf",
+        "preview":"https://interactive-card-details-form-icdf.vercel.app/",
+        "tags":["ReactJS", "Tailwind CSS"],
+        "image":"/images/interactive-card-details-form.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
         "name":"Weather-App",
         "code":"https://github.com/adonisfr/weather-app",
         "preview":"https://adonisfr.github.io/weather-app/",
