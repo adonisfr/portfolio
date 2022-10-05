@@ -25,5 +25,14 @@
         "image":"/images/Weather-App.png",
         "company":"",
         "link":""
+    },
+    {
+        "name":"Little Lemon",
+        "code":"https://github.com/adonisfr/little-lemon",
+        "preview":"https://adonisfr.github.io/little-lemon/",
+        "tags":["HTML5", "CSS3"],
+        "image":"/images/little-lemon.png",
+        "company":"",
+        "link":""
     }
 ]
