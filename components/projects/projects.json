@@ -18,6 +18,15 @@
         "link":"https://www.frontendmentor.io/profile/adonisfr"
     },
     {
+        "name":"Single-page design portfolio",
+        "code":"https://github.com/adonisfr/single-page-portfolio",
+        "preview":"https://adonisfr.github.io/single-page-portfolio/",
+        "tags":["HTML", "CSS", "JavaScript"],
+        "image":"/images/single-page-design-portfolio.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
         "name":"Weather-App",
         "code":"https://github.com/adonisfr/weather-app",
         "preview":"https://adonisfr.github.io/weather-app/",
