@@ -1,5 +1,14 @@
 [
     {
+        "name":"Suite landing page",
+        "code":"https://github.com/adonisfr/suite-landing-page",
+        "preview":"https://adonisfr.github.io/suite-landing-page/",
+        "tags":["HTML", "CSS"],
+        "image":"/images/suite-landing-page.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
         "name":"Space tourism multi-page website",
         "code":"https://github.com/adonisfr/space_tourism",
         "preview":"https://space-tourism-azure.vercel.app/",
