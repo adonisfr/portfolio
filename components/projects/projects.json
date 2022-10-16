@@ -1,5 +1,14 @@
 [
     {
+        "name":"Clock app",
+        "code":"https://github.com/adonisfr/clock-app",
+        "preview":"https://clock-app-cyan.vercel.app/",
+        "tags":["ReactJS", "Tailwind CSS"],
+        "image":"/images/clock-app.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
         "name":"Suite landing page",
         "code":"https://github.com/adonisfr/suite-landing-page",
         "preview":"https://adonisfr.github.io/suite-landing-page/",
