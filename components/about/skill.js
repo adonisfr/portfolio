@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export default function Skill({ logo, name }) {
-  console.log("image", logo);
   return (
     <div className="flex flex-col items-center justify-center">
       {logo && (

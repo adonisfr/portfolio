@@ -1,16 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-
-const links = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
-];
+import useTranslator from "../hooks/useTranslator";
+import LanguageSelector from "../selector/languageSelector";
 
 export default function NavBar() {
+  const t = useTranslator();
+  const { home, about, project, contact } = t.navbar.links;
   const [open, setOpen] = useState(false);
+  const links = [
+    { name: home, href: "#home" },
+    { name: about, href: "#about" },
+    { name: project, href: "#projects" },
+    { name: contact, href: "#contact" },
+  ];
   return (
     <nav className="fixed z-50 h-16 w-full shadow-md bg-white">
       <div className="h-18 md:h-16 md:flex md:justify-between md:items-center bg-white py-4 px-7 lg:container lg:mx-auto">
@@ -45,6 +48,11 @@ export default function NavBar() {
               </Link>
             </li>
           ))}
+          <li>
+            <div className="flex justify-center">
+              <LanguageSelector />
+            </div>
+          </li>
         </ul>
       </div>
     </nav>

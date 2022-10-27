@@ -3,8 +3,10 @@ import picture from "./f.jpg";
 import email from "./email.svg";
 import linkedin from "./linkedin.svg";
 import Link from "next/link";
+import useTraslator from "../hooks/useTranslator";
 
 export default function Presentation() {
+  const t = useTraslator();
   return (
     <section
       id="home"
@@ -12,10 +14,10 @@ export default function Presentation() {
     >
       <div className="flex flex-col  gap-3 lg:w-full md:pb-12 pt-5 md:pt-10">
         <h1 className="font-serif font-semibold text-2xl">
-          Hello! 👋 My name is
+          {t.presentation.greeting}
         </h1>
         <p className="font-elMessiri text-5xl"> ADONIS A. FERNANDEZ REYES</p>
-        <p className="text-3xl font-medium"> {`I'am a Front-end Developer.`}</p>
+        <p className="text-3xl font-medium"> {t.presentation.profession}</p>
         <div className="flex flex-row gap-8">
           <Link href="mailto:adonisfernandezr@gmail.com">
             <a target="_blank">
