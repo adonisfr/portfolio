@@ -8,7 +8,7 @@ export default function LanguageSelector() {
 
   return (
     <select
-      className="md:ml-5 md:hover:cursor-pointer"
+      className="md:ml-5 md:hover:cursor-pointer border-2 border-gray-900 rounded-lg"
       defaultValue={router.locale}
       onChange={handleChange}
     >
