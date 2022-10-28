@@ -12,7 +12,7 @@ export default function CardProject({
   link,
 }) {
   return (
-    <div className="flex flex-col bg-slate-100 pb-4 gap-1 rounded-b-xl shadow-xl">
+    <div className="flex flex-col bg-slate-100 dark:bg-slate-800 pb-4 gap-1 rounded-b-xl shadow-xl">
       <div className="relative w-80 h-52 ">
         <Image src={picture} alt="picture" layout="fill" />
         <div className="absolute bottom-2 right-0 bg-gray-500 font-semibold text-white px-1">
@@ -27,7 +27,7 @@ export default function CardProject({
       </div>
       <div className="px-3 py-2">
         <div className="pb-3">
-          <h1 className="font-semibold text-lg">{name}</h1>
+          <h1 className="font-semibold text-lg dark:text-gray-200">{name}</h1>
           <div className="flex gap-3">
             {tags.map((t) => (
               <div

@@ -3,12 +3,12 @@ import useTraslator from "../hooks/useTranslator";
 export default function Companies() {
   const t = useTraslator();
   return (
-    <div className="flex flex-col items-center  w-full">
+    <div className="flex flex-col items-center  w-full dark:text-gray-300">
       <h1 className="font-serif text-4xl py-3">{t.jobs.title}</h1>
       <div className="flex flex-col justify-center gap-3">
         <h1 className="font-sans font-semibold self-center text-xl">
           {t.jobs.companies.first.name}
-          <span className="bg-slate-300 px-1 underline">
+          <span className="bg-slate-300 px-1 ml-1 underline dark:bg-gray-700">
             {t.jobs.companies.first.rol}
           </span>
         </h1>

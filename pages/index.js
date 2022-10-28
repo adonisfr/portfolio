@@ -8,14 +8,14 @@ import Projects from "../components/projects/projects";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="dark:bg-slate-900">
       <Head>
         <title>Portfolio</title>
         <meta name="description" content="Profesional portfolio" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <main role="main" className="px-6 h-full lg:container mx-auto space-y-10">
+      <main className="px-6 h-full lg:container mx-auto space-y-10">
         <Presentation />
         <About />
         <Projects />

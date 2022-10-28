@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-center items-center w-full gap-4  py-16"
+      className="flex flex-col justify-center items-center w-full gap-4  py-16 dark:text-gray-300"
     >
       <h1 className="font-elMessiri text-7xl">{t.contact.title}</h1>
       <p className="font-sans font-semibold text-lg">{t.contact.text}</p>

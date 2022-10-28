@@ -9,7 +9,9 @@ export default function Projects() {
       id="projects"
       className="flex flex-col justify-center items-center pt-20 lg:pt-28 gap-10"
     >
-      <h1 className="font-elMessiri text-7xl ">{t.project.title}</h1>
+      <h1 className="font-elMessiri text-7xl dark:text-gray-300">
+        {t.project.title}
+      </h1>
       <div className="flex flex-col md:flex-row flex-wrap justify-center w-full gap-5 ">
         {projects.map((p) => (
           <div key={p.preview}>

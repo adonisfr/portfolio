@@ -6,7 +6,10 @@ import useTranslator from "../hooks/useTranslator";
 export default function About() {
   const t = useTranslator();
   return (
-    <section id="about" className="flex flex-col gap-16 pt-32 lg:flex-row">
+    <section
+      id="about"
+      className="flex flex-col gap-16 pt-32 lg:flex-row dark:text-gray-300"
+    >
       <div className="flex flex-col w-full gap-5 lg:w-1/2">
         <h1 className="font-elMessiri text-7xl text-center ">
           {t.about.title}
