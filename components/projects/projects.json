@@ -3,7 +3,7 @@
         "name":"Memory game",
         "code":"https://github.com/adonisfr/memory-game",
         "preview":"https://memory-game-adonisfr.vercel.app/",
-        "tags":["ReactJS", "Redux Toolkit"],
+        "tags":["ReactJS", "Vite", "Styled-Component", "Redux Toolkit"],
         "image":"/images/memory-game.png",
         "company":"Frontend Mentor (Challenges)",
         "link":"https://www.frontendmentor.io/profile/adonisfr"
@@ -21,7 +21,7 @@
         "name":"Clock app",
         "code":"https://github.com/adonisfr/clock-app",
         "preview":"https://clock-app-cyan.vercel.app/",
-        "tags":["ReactJS", "Tailwind CSS"],
+        "tags":["ReactJS","Vite", "Tailwind CSS"],
         "image":"/images/clock-app.png",
         "company":"Frontend Mentor (Challenges)",
         "link":"https://www.frontendmentor.io/profile/adonisfr"
