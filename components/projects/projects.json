@@ -1,5 +1,14 @@
 [
     {
+        "name":"Memory game",
+        "code":"https://github.com/adonisfr/memory-game",
+        "preview":"https://memory-game-adonisfr.vercel.app/",
+        "tags":["ReactJS", "Vite", "styled-components", "Redux Toolkit"],
+        "image":"/images/memory-game.png",
+        "company":"Frontend Mentor (Challenges)",
+        "link":"https://www.frontendmentor.io/profile/adonisfr"
+    },
+    {
         "name":"Photosnap multi-page website",
         "code":"https://github.com/adonisfr/photosnap-multi-page-website",
         "preview":"https://photosnap-multi-page-website-indol.vercel.app/",
