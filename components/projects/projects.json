@@ -2,7 +2,7 @@
   {
     "name": "IP Address Tracker",
     "code": "https://github.com/adonisfr/ip-address-tracker",
-    "preview": "https://memory-game-adonisfr.vercel.app/",
+    "preview": "https://ip-address-tracker-adonisfr.vercel.app/",
     "tags": ["ReactJS", "Vite", "Redux Toolkit"],
     "image": "/images/ip-address-tracker.jpg",
     "company": "Frontend Mentor (Challenges)",
