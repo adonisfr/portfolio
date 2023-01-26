@@ -3,7 +3,7 @@
     "name": "IP Address Tracker",
     "code": "https://github.com/adonisfr/ip-address-tracker",
     "preview": "https://memory-game-adonisfr.vercel.app/",
-    "tags": ["ReactJS", "Vite", "Styled-Component", "Redux Toolkit"],
+    "tags": ["ReactJS", "Vite", "Redux Toolkit"],
     "image": "/images/ip-address-tracker.jpg",
     "company": "Frontend Mentor (Challenges)",
     "link": "https://www.frontendmentor.io/profile/adonisfr"
@@ -11,8 +11,8 @@
   {
     "name": "Memory game",
     "code": "https://github.com/adonisfr/memory-game",
-    "preview": "https://ip-address-tracker-adonisfr.vercel.app/",
-    "tags": ["ReactJS", "Vite", "Redux Toolkit"],
+    "preview": "https://memory-game-adonisfr.vercel.app/",
+    "tags": ["ReactJS", "Vite", "Styled-Component", "Redux Toolkit"],
     "image": "/images/memory-game.png",
     "company": "Frontend Mentor (Challenges)",
     "link": "https://www.frontendmentor.io/profile/adonisfr"
