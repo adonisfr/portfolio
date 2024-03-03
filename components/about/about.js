@@ -2,6 +2,7 @@ import Education from "./education";
 import Skill from "./skill";
 import skills from "./skills.json";
 import useTranslator from "../hooks/useTranslator";
+import Certifications from "./certifications";
 
 export default function About() {
   const t = useTranslator();
@@ -17,6 +18,9 @@ export default function About() {
         <p>{t.about?.summary}</p>
         <div className="hidden lg:flex">
           <Education />
+        </div>
+        <div className="hidden lg:flex">
+          <Certifications />
         </div>
       </div>
       <div className="flex flex-col w-full lg:w-1/2 gap-8">

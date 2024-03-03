@@ -24,6 +24,16 @@ const en = {
       degree: "Sept. 2007 - July 2012 Computer Science Engineering.",
       university: "University of Informatics Science (UCI), Havana, Cuba.",
     },
+    certificationsLicenses: {
+      title: "Certifications",
+      certifications: [
+        {
+          date: "February 2023",
+          title: "Meta Front-End Developer",
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GNL57FZ2BP3J",
+        },
+      ],
+    },
   },
   project: {
     title: "Projects",

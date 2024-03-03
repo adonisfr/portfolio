@@ -24,6 +24,16 @@ const es = {
       university:
         "Universidad de Ciencias Informáticas (UCI), La Habana, Cuba.",
     },
+    certificationsLicenses: {
+      title: "Certificaciones",
+      certifications: [
+        {
+          date: "Febrero 2023",
+          title: "Meta Front-End Developer",
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/GNL57FZ2BP3J",
+        },
+      ],
+    },
   },
   project: {
     title: "Proyectos",
