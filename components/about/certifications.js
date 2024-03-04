@@ -13,7 +13,7 @@ export default function Certifications() {
           return (
             <li key={idx}>
               {`${i.date} - `}
-              <a href={i.link} target="_blank">
+              <a href={i.link} target="_blank" rel="noreferrer">
                 {i.title}
               </a>
               {` - `} <span className="underline pl-2">Coursera.org</span>
